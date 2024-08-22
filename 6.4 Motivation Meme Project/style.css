@@ -9,6 +9,7 @@ div {
 img{
     border: solid white;
     height: 70%;
+    width: 100%;
 }
 .text{
     color: white;
@@ -16,7 +17,7 @@ img{
 }
 h1{
     font-family: "Libre Baskerville" ;
-    font-size: 4rem;
+    font-size: 3rem;
     text-transform: capitalize;
 }
 p{
