@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mondrian Project</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+    .container{
+      display: grid;
+      grid-template-columns:320px 419px;
+      grid-template-rows:414px 305px ;
+      grid-gap: 9px;
+      background-color:#000;
+      grid-auto-rows:20px;
+
+    }
+    .first{
+      background-color: #E72F24;
+
+    }
+    .second{
+      background-color: #F0F1EC;
+    }
+    .third{
+      background-color: #F0F1EC;
+    }
+    .fourth{
+      display: grid;
+      grid-template-columns: 360px 50px;
+      background-color: #000;
+      grid-gap: 9px;
+    }
+    .left{
+      background-color: #F0F1EC;
+    }
+    .right{
+      display: grid;
+      background-color:#000;
+      grid-template-rows: 130px 155px;
+      gap: 10px
+    }
+    .top{
+      background-color: #004592;
+    }
+    .bottom{
+      background-color: #F0F1EC;
+    }
+    .fifth{
+      background-color: #F0F1EC;
+    }
+    .sixth{
+      background-color: #F0F1EC;
+      display: grid;
+      grid-template-columns: 198px 153px;
+      background-color: #000;
+      grid-gap: 10px
+    }
+    .yellow{
+      background-color:#F9D01E ;
+    }
+    .black{
+      background-color: #232629;
+    }
+
+    /* 
+    Write your CSS here 
+    Gap Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+
+    For dimensions, see dimensions.png image.
+    HINT: Remember you can't change the properties of grid lines.
+    But grid lines are transparent!
+    */
+  </style>
+</head>
+<div class="container">
+  <div class="first"> </div>
+  <div class="second"></div>
+  <div class="third"></div>
+  <div class="fourth">
+      <div class="left"></div>
+      <div class="right">
+        <div class="top"></div>
+        <div class="bottom"></div>
+      </div>
+  </div>
+  <div class="fifth"></div>
+  <div class="sixth">
+    <div class="yellow"></div>
+    <div class="black"></div>
+  </div>
+</div>
+<body>
+  <!-- Write your HTML here -->
+
+</body>
+
+</html>
